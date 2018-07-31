@@ -1,0 +1,26 @@
+
+{% extends 'base/base.html'%}
+
+{% block slider %}
+
+
+{% endblock %}
+
+{% block contenido %}
+
+
+
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" name="submit">
+    </form>
+
+
+
+{% endblock %}
+
+ {% block script_slider %}
+
+{% endblock %}

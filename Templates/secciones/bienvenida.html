@@ -1,0 +1,21 @@
+
+
+
+
+{% extends 'base/base.html'%}
+
+{% block slider %}
+
+
+{% endblock %}
+
+{% block contenido %}
+
+
+    {% if user.is_authenticated %}
+        <h1>Hola {{ user.username }}</h1>
+    {% else %}
+        <a href="{% url 'sign_up' %}">Registrate</a>
+    {% endif %}
+    
+{% endblock  %}

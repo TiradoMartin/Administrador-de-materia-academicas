@@ -1,0 +1,52 @@
+
+{% extends 'base/base.html'%}
+
+
+{% block contenido %}
+
+
+
+<table class="table table-inverse">
+  <thead>
+    <tr>
+      <th>Seccion</th>
+      <th>Materia</th>
+      <th>Profesor</th>
+      <th>Recinto</th>
+       <th class="extra">Curso</th>
+      <th class="extra">Dia1</th>
+      <th class="extra">Dia2</th>
+      <th class="extra">hora</th>
+       <th class="extra">Tanda</th>
+      <th>Clasificación</th>
+      
+      
+    </tr>
+  </thead>
+  <tbody>
+  	{%if secciones %}
+  	{% for seccion in secciones %}
+   
+    <tr>
+      <th scope="row"><a class="t-labe" href="">{{seccion.Seccion}}</a> </th>
+      <td><a class="t-labe" href="">{{seccion.Materia}}</a></td>
+      <td><a  class="t-labe" href="">{{seccion.Profesor}}</a> </td>
+      <td><a class="t-labe" href="">{{seccion.Recinto}}</a> </td>
+       <td><a  class="t-labe" href=""></a>{{seccion.Curso}} </td>
+      <td><a  class="t-labe" href=""></a>{{seccion.Dia1}} </td>
+      <td><a  class="t-labe" href=""></a> {{seccion.Dia2}}</td>
+       <td><a class="t-labe" href=""></a>{{seccion.hora}}</td>
+      <td><a class="t-labe" href=""></a>{{seccion.Tanda}}</td>
+      <td><a class="t-labe" href=""></a> {{seccion.Clasificacion}}</td>
+     <td>
+     <a type="button"  href="{% url 'editar' seccion.id %}"><button type="button" class="btn btn-primary"> Editar </button></a></td>
+    </tr>
+    {%endfor%}
+
+{% else %}
+<h1>No hay registros</h1>
+{% endif %}
+  </tbody>
+</table> 
+
+{% endblock %}

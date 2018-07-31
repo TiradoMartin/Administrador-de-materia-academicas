@@ -1,0 +1,34 @@
+
+
+{% extends 'base/base.html'%}
+
+{% block slider %}
+
+
+{% endblock %}
+
+{% block contenido %}
+
+<br>
+<br>
+<br>
+<br>
+<center><h1>Esta apunto de agregar un registro</h1><center>
+<br>
+<form method="POST" class="post-form form" >
+{% csrf_token %}
+{{form.as_p}}
+<button type="submit" class='save btn btn-success'>Guardar</button>
+<a href="{% url 'index' %}"><button type="button" class='save btn btn-danger'>Cancelar</button></a>
+
+<br>
+<br>
+
+</form>
+
+
+{% endblock %}
+
+ {% block script_slider %}
+
+{% endblock %}
