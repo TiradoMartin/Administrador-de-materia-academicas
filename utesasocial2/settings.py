@@ -132,4 +132,5 @@ CKEDITOR_CONFIGS = {
         'toolbar': None,
     },
 }
+#esta es la variable que activa el panel de administracion correctamente
 SITE_ID=1

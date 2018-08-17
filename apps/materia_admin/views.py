@@ -10,7 +10,7 @@ def materia_view(request):
 		form = MateriaForms(request.POST)
 		if form.is_valid() :
 			form.save()
-		return redirect('inicio')
+		return redirect('index')
 	else:	
 	     form=MateriaForms()
 	return render(request,'secciones/form_new_seccion.html',{'form':form})  
@@ -33,3 +33,19 @@ def editar(request,seccion):
 			form.save()
 		return redirect('inicio')	
 	return render(request,'secciones/form_new_seccion.html',{'form':form}) 
+
+#Metodo para llamar acerca de 
+def about(request):
+	pass
+	return render(request,'Base/about.html')
+
+#esta es la funcion para ver el registro completo.
+def seccion_view(request,seccion):
+	seccion=Materia_admin.objects.get(id = seccion)
+	if request.method== 'POST':
+		pass
+		seccion = MateriaForms(instance= seccion) 
+	
+		
+	return render(request,'secciones/form_presentacion.html',{'seccion':seccion}) 
+ 

@@ -14,8 +14,7 @@
       <th>Profesor</th>
       <th>Recinto</th>
        <th class="extra">Curso</th>
-      <th class="extra">Dia1</th>
-      <th class="extra">Dia2</th>
+      <th class="extra">Dias de clases</th>
       <th class="extra">hora</th>
        <th class="extra">Tanda</th>
       <th>Clasificación</th>
@@ -29,15 +28,14 @@
    
     <tr>
       <th scope="row"><a class="t-labe" href="">{{seccion.Seccion}}</a> </th>
-      <td><a class="t-labe" href="">{{seccion.Materia}}</a></td>
-      <td><a  class="t-labe" href="">{{seccion.Profesor}}</a> </td>
+      <td><a class="t-labe" href="{% url 'vista' seccion.id %}">{{seccion.Materia}}</a></td>
+      <td><a  class="t-labe" href="{% url 'vista' seccion.id %}">{{seccion.Profesor}}</a> </td>
       <td><a class="t-labe" href="">{{seccion.Recinto}}</a> </td>
        <td><a  class="t-labe" href=""></a>{{seccion.Curso}} </td>
-      <td><a  class="t-labe" href=""></a>{{seccion.Dia1}} </td>
-      <td><a  class="t-labe" href=""></a> {{seccion.Dia2}}</td>
-       <td><a class="t-labe" href=""></a>{{seccion.hora}}</td>
-      <td><a class="t-labe" href=""></a>{{seccion.Tanda}}</td>
-      <td><a class="t-labe" href=""></a> {{seccion.Clasificacion}}</td>
+      <td><a  class="t-labe" href=""></a>{{seccion.Dia1}} y  {{seccion.Dia2}} </td>
+       <td><a class="t-labe" href="{% url 'vista' seccion.id %}"></a>{{seccion.hora}}</td>
+      <td><a class="t-labe" href="{% url 'vista' seccion.id %}"></a>{{seccion.Tanda}}</td>
+      <td><a class="t-labe" href="{% url 'vista' seccion.id %}"></a> {{seccion.Clasificacion}}</td>
      <td>
      <a type="button"  href="{% url 'editar' seccion.id %}"><button type="button" class="btn btn-primary"> Editar </button></a></td>
     </tr>

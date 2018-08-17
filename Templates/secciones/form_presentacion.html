@@ -1,0 +1,101 @@
+{% extends 'base/base.html'%}
+
+{% block slider %}
+
+
+{% endblock %}
+
+{% block contenido %}
+
+<br>
+<br>
+<br>
+<br>
+<center><h1>Esta es la seccion de {{seccion.Profesor}} </h1><center>
+<br>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Seccion</h3>
+  </div>
+  <div class="panel panel-info">
+    {{seccion.Seccion}}
+  </div>
+ 
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Materia</h3>
+  </div>
+  <div class="panel panel-info">
+    {{seccion.Materia}}
+  </div>
+
+  <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Profes@</h3>
+  </div>
+  <div class="panel panel-info">
+    {{seccion.Profesor}}
+  </div>
+ 
+ <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recinto</h3>
+  </div>
+  <div class="panel panel-info">
+    {{seccion.Recinto}}
+  </div>
+
+  <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Curso</h3>
+  </div>
+  <div class="panel panel-info">
+    {{seccion.Curso}}
+  </div>
+ 
+ <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Dias de clases</h3>
+  </div>
+  <div class="panel panel-info">
+    {{seccion.Dia1}} y  {{seccion.Dia2}}
+  </div>
+ 
+  <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">horario</h3>
+  </div>
+  <div class="panel panel-info">
+    {{seccion.Hora}}
+  </div>
+ 
+  <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Tanda</h3>
+  </div>
+  <div class="panel panel-info">
+    {{seccion.Tanda}} 
+
+     <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Clasificación</h3>
+  </div>
+  <div class="panel panel-info">
+    {{seccion.Clasificacion}}
+  </div>
+
+    <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Comentario</h3>
+  </div>
+  <div class="panel panel-info">
+    {{seccion.Comentario| safe}}
+  </div>
+
+<br>
+<br>
+{% endblock %}
+
+ {% block script_slider %}
+
+{% endblock %}

@@ -1,11 +1,13 @@
-﻿<!DOCTYPE html>
+﻿{% load staticfiles %}
+<!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
+<html lang="es">
 <!--<![endif]-->
 <!-- HEAD SECTION -->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -14,22 +16,27 @@
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-    <title>Bootstrap Mutipager Template - Maxop</title>
+    <title>{% block title %} Bootstrap{% endblock %}</title>
     <!--GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--BOOTSTRAP MAIN STYLES -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="{% static 'assets/css/bootstrap.css'%}" rel="stylesheet" />
     <!--FONTAWESOME MAIN STYLE -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="{% static 'assets/css/font-awesome.min.css'%}" rel="stylesheet" />
+    <!--SLIDER CSS CLASES -->
+    <link href="{% static 'assets/Slides-SlidesJS-3/examples/playing/css/slider.css'%}" rel="stylesheet" />
     <!--CUSTOM STYLE -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    
+    <link href="{% static  'assets/css/style.css'%}" rel="stylesheet" />
+     <link href="{% static 'assets/css/form.css'%}" rel="stylesheet" />
+   
+  
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <!--END HEAD SECTION -->
 <body>
     <!-- NAV SECTION -->
@@ -187,30 +194,7 @@
             <div class="col-md-4">
                 <h4>Need Help ? Write Us. </h4>
                 <hr>
-                <form>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" required="required" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" required="required" placeholder="Email address">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-primary">Submit Request</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+              
             </div>
             <div class="col-md-4">
                 <a href="#"><i class="fa fa-facebook-square fa-3x color-facebook"></i></a>
@@ -220,13 +204,13 @@
                 <a href="#"><i class="fa fa-pinterest-square fa-3x color-pinterest"></i></a>
                 <hr>
                 <p>
-                    103, New Street,<br>
-                    New York, USA.<br>
-                    Call: +23-00-89-009<br>
-                    Email: demo@yourdomain.com<br>
+                   <br>
+                    <br>
+                    <br>
+                    <br>
                 </p>
 
-                2014 www.yourdomain.com | All Right Reserved
+                Graper 2018 | All Right Reserved
             </div>
         </div>
 

@@ -7,7 +7,7 @@ urlpatterns = [
    
     url(r'inicio', index, name='inicio'),
 
-    url(r'nuevo',materia_view, name='nuevo'),
+  
 
 
 
