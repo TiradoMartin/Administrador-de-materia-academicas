@@ -5,97 +5,39 @@
 
 {% endblock %}
 
+<div class="control-footer">
+<h1>gdfff</h1>
 {% block contenido %}
 
-<br>
-<br>
-<br>
-<br>
-<center><h1>Esta es la seccion de {{seccion.Profesor}} </h1><center>
-<br>
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Seccion</h3>
-  </div>
-  <div class="panel panel-info">
-    {{seccion.Seccion}}
-  </div>
- 
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Materia</h3>
-  </div>
-  <div class="panel panel-info">
-    {{seccion.Materia}}
-  </div>
 
-  <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Profes@</h3>
-  </div>
-  <div class="panel panel-info">
-    {{seccion.Profesor}}
-  </div>
- 
- <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Recinto</h3>
-  </div>
-  <div class="panel panel-info">
-    {{seccion.Recinto}}
-  </div>
+<div class=”row”>
+    <div class=”col-lg-3 col-md-4 col-sm-6 col-xs-12″>
+      <div class="panel panel-default">
+            <center><h1>Esta Es La Seccion De {{seccion.Profesor}} </h1><center>
+          <div class="panel-heading"></div>
 
-  <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Curso</h3>
-  </div>
-  <div class="panel panel-info">
-    {{seccion.Curso}}
-  </div>
- 
- <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Dias de clases</h3>
-  </div>
-  <div class="panel panel-info">
-    {{seccion.Dia1}} y  {{seccion.Dia2}}
-  </div>
- 
-  <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">horario</h3>
-  </div>
-  <div class="panel panel-info">
-    {{seccion.Hora}}
-  </div>
- 
-  <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Tanda</h3>
-  </div>
-  <div class="panel panel-info">
-    {{seccion.Tanda}} 
+    
 
-     <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Clasificación</h3>
-  </div>
-  <div class="panel panel-info">
-    {{seccion.Clasificacion}}
-  </div>
 
-    <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Comentario</h3>
-  </div>
-  <div class="panel panel-info">
-    {{seccion.Comentario| safe}}
-  </div>
+      <ul class="list-group ">
+     
+        <li class="list-group-item  utesa-presentacion"><h3>Materia</h3>{{seccion.Materia}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Seccion</h3>{{seccion.Seccion}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Profes@</h3>{{seccion.Profesor}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Recinto</h3>{{seccion.Recinto}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Curso</h3>{{seccion.Curso}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Dias De Clases</h3>{{seccion.Dia1}}/{{seccion.Dia2}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Horario</h3>{{seccion.Hora}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Tanda</h3>{{seccion.Tanda}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Clasificación</h3>{{seccion.Clasificacion}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Comentario</h3>{{seccion.Comentario| safe}}</li>
+    
+      </ul>
+    </div>
+  
+</div>
 
-<br>
-<br>
-{% endblock %}
-
- {% block script_slider %}
 
 {% endblock %}
+
+</div>

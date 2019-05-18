@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
      'apps.materia_admin',
      'ckeditor',
+     'apps.usuario',
 ]
 
 MIDDLEWARE = [

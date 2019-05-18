@@ -18,12 +18,14 @@ from django.urls import path
 from django.conf.urls import url, include
 from apps.materia_admin.views import *
 from django.shortcuts import render
+from apps.usuario.views import registro_usuario
 #url de la aplicacion
 urlpatterns = [
     url(r'^admin', admin.site.urls),
     url(r'^acercade/', about, name='acercade'),
      url(r'^ckeditor/', include('ckeditor_uploader.urls')),
- url(r'^nuevo/', materia_view, name='nuevo'),
+   url(r'^nuevo/', materia_view, name='nuevo'),
+url(r'^registrar/',registro_usuario.as_view () , name='registrar'),
    url(r'^editar/(?P<seccion>\d+)/$',editar, name='editar'),
     url(r'^vista/(?P<seccion>\d+)/$',seccion_view, name='vista'),
     url(r'^', index, name='index'),

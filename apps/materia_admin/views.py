@@ -42,7 +42,7 @@ def about(request):
 #esta es la funcion para ver el registro completo.
 def seccion_view(request,seccion):
 	seccion=Materia_admin.objects.get(id = seccion)
-	if request.method== 'POST':
+	if request.method == 'POST':
 		pass
 		seccion = MateriaForms(instance= seccion) 
 	
