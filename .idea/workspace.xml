@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa708342-921b-40bd-a42e-62d0e6e21634" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/materia_admin/migrations/0002_auto_20190518_1619.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/materia_admin/migrations/0003_auto_20190518_1627.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requiereme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Base/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Base/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/secciones/form_new_seccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/secciones/form_new_seccion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/secciones/form_presentacion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/secciones/form_presentacion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/secciones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/secciones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/materia_admin/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/materia_admin/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/materia_admin/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/materia_admin/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/materia_admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/materia_admin/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/GridGallery/css/component.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/GridGallery/css/component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/GridGallery/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/GridGallery/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/55.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/large/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/large/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/large/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/large/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/large/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/large/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/slider/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/slider/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/thumb/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/thumb/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/thumb/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/thumb/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/thumb/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/thumb/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utesasocial2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/utesasocial2/urls.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/materia_admin/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#750#1064#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Templates/secciones/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="699">
+              <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/utesasocial2.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="174" />
+    <option name="y" value="66" />
+    <option name="width" value="1026" />
+    <option name="height" value="529" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="utesasocial2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="utesasocial2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="utesasocial2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="utesasocial2" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="utesasocial2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="utesasocial2" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="materia_admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="utesasocial2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="utesasocial2" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="utesasocial2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="utesasocial2" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+              <item name="secciones" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="utesasocial2" type="Python.DjangoServer" factoryName="Django server">
+      <module name="utesasocial2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa708342-921b-40bd-a42e-62d0e6e21634" name="Default Changelist" comment="" />
+      <created>1563501066266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563501066266</updated>
+      <workItem from="1563501154049" duration="1036000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1036000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229954" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/apps/usuario/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/materia_admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#750#1064#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/secciones/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

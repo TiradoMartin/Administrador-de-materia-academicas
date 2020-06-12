@@ -1,26 +1,25 @@
 
 
-{% extends 'base/base.html'%}
-
-{% block slider %}
+{% extends 'Base/base.html'%}
 
 
-{% endblock %}
+
+
 
 {% block contenido %}
 
 <br>
 <br>
 <br>
-<br>
-<center><h1>Esta apunto de agregar un registro</h1><center>
+<div class="new-seccion">
+<center><h1>Esta Apunto De Agregar Un Registro</h1><center>
 <br>
 <form method="POST" class="post-form form" >
 {% csrf_token %}
 {{form.as_p}}
 <button type="submit" class='save btn btn-success'>Guardar</button>
 <a href="{% url 'index' %}"><button type="button" class='save btn btn-danger'>Cancelar</button></a>
-
+</div>
 <br>
 <br>
 

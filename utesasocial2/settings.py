@@ -25,7 +25,7 @@ SECRET_KEY = '%#u$vk+3ku=)f(5)nv7hv@xm=zhuvb4h#yd_t!_en$gd0ef2y&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["unired.archat.la","unired.archat.la","*"]
 
 
 # Application definition

@@ -252,6 +252,7 @@ span.nav-close:before {
 	content: "\e604";
 }
 
+
 /* Example media queries (reduce number of columns and change slideshow layout) */
 
 @media screen and (max-width: 60em) {
@@ -260,6 +261,7 @@ span.nav-close:before {
 		width: 33.3%;
 	}
 
+	
 	.slideshow li {
 		width: 100%;
 		height: 100%;

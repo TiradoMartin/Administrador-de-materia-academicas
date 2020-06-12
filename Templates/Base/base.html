@@ -13,29 +13,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!--[if IE]>
+    [if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
-    <title>{% block title %} Bootstrap{% endblock %}</title>
+        <![endif]
+    <title>{% block title %} UniRed{% endblock %}</title>
     <!--GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--BOOTSTRAP MAIN STYLES -->
-    <link href="{% static 'assets/css/bootstrap.css'%}" rel="stylesheet" />
+    <link href="http://cdn.archat.la/static_unired/assets/css/bootstrap.css" rel="stylesheet" />
     <!--FONTAWESOME MAIN STYLE -->
-    <link href="{% static 'assets/css/font-awesome.min.css'%}" rel="stylesheet" />
+  
+    <link href="http://cdn.archat.la/static_unired/assets/css/font-awesome.min.css" rel="stylesheet" />
     <!--SLIDER CSS CLASES -->
-    <link href="{% static 'assets/Slides-SlidesJS-3/examples/playing/css/slider.css'%}" rel="stylesheet" />
+   <link href="http://cdn.archat.la/static_unired/assets/Slides-SlidesJS-3/examples/playing/css/slider.css" rel="stylesheet" />
     <!--CUSTOM STYLE -->
-    <link href="{% static  'assets/css/style.css'%}" rel="stylesheet" />
-    <link href="{% static  'assets/css/estilos.css'%}" rel="stylesheet" />
-     <link href="{% static 'assets/css/form.css'%}" rel="stylesheet" />
+    <link href="http://cdn.archat.la/static_unired/assets/css/style.css" rel="stylesheet" />
+    <link href="http://cdn.archat.la/static_unired/assets/css/estilos.css" rel="stylesheet" />
+     <link href="http://cdn.archat.la/static_unired/assets/css/form.css" rel="stylesheet" />
    
   
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+   [if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    <![endif]
 </head>
 
 
@@ -51,22 +52,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{% url 'index' %}">LOGO</a>
+                <a class="navbar-brand" href="{%  url 'index'%}"><img class="logo" src="http://cdn.archat.la/static_unired/assets/img/slider/images/logo.jpeg" alt="LOGO DE UNIRED"> </a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{% url 'index' %}">INICIO</a></li>
                     <li><a href="{% url 'nuevo' %}">AGREGAR NUEVA SECCION</a></li>
-                    <li><a href="editar">BUSCAR SECCIONES</a></li>
-                    <li><a href="{% url 'acercade'%}">ACERCA DE</a></li>
-                  
-                   
+                    <li><a href="{% url 'index' %}">BUSCAR SECCIONES</a></li>
 
-                         
-                              
-
-
-                        </div>
                 </ul>
             </div>
 
@@ -78,16 +71,19 @@
   
 
     <!-- SLIDER SECTION -->
-   
-    <div id="slides">
+   <div class="controt ">
+  <div id="slides1">
  {% block slider %}
-        <img src="{% static  'assets/img/slider/images/1.jpg'%}" alt="" />
+        <!--<img src="{% static  'assets/img/slider/images/1.jpg'%}" alt="" />
         <img src="{% static  'assets/img/slider/images/2.jpg'%}" alt="" />
-        <img src="{% static  'assets/img/slider/images/1.jpg'%}" alt="" />
-        <img src="{% static  'assets/img/slider/images/2.jpg'%}" alt="" />
+        <img src="{% static  'assets/img/slider/images/1.jpg'%}" alt="" />-->
+       <img class="mediana" src="http://cdn.archat.la/static_unired/assets/img/slider/images/12.jpg" alt="IMAGEN PRINCIPAL DE UNOS JOVEDES DE UNIRED" />
  {% endblock %}
     </div>
-   
+  </div>
+
+  
+
     <!-- END SLIDER SECTION -->
     
   <div class="contenedor">
@@ -130,8 +126,8 @@
   </tbody>
 </table> 
 {% endblock %}
-<!--
 
+<!--
 <table class="table table-inverse">
   <thead>
     <tr>
@@ -173,7 +169,7 @@
               {% block footer %}
                 <h4>:</h4>
                 <p>
-                   
+                  Esta es una plataforma para ayudar a los estudiantes a tomar una buena desicion a la hora de elegir sus materias, por fabor sea responsable con la imfomacion que brinde en esta plataforma 
             </div>
             <div class="col-md-4">
                 <h4>: </h4>
@@ -197,7 +193,7 @@
                 <br>
                 <br>
 
-                2018 grapes | All Right Reserved
+                {{fecha}}| UniRed| All Right Reserved
             </div>
         </div>
 
@@ -206,12 +202,13 @@
     <!--END FOOTER SECTION -->
     <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
     <!-- CORE JQUERY LIBRARY -->
-    <script src="{% static  'assets/js/jquery.js'%}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- CORE BOOTSTRAP LIBRARY -->
-    <script src="{% static  'assets/js/bootstrap.min.js'%}"></script>
+    <script src="http://cdn.archat.la/static_unired/assets/js/bootstrap.min.js"></script>
     <!-- SLIDER SCRIPTS LIBRARY -->
-    <script src="{% static  'assets/Slides-SlidesJS-3/examples/playing/js/jquery.slides.min.js'%}"></script>
+<script src="cdn.archat.la/static_unired/assets/Slides-SlidesJS-3/examples/playing/js/jquery.slides.min.js"></script>
     <!-- CUSTOM SCRIPT-->
+    <script src="http://cdn.archat.la/static_unired/assets/js/buscador.js"></script>
     {% block script_slider %}
  <script>
         $(document).ready(function () {
@@ -232,6 +229,9 @@
 
  <script type="text/javascript" src="{% static "ckeditor/ckeditor-init.js" %}"></script>
 <script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"></script>
+<script src="https://cdn.ckeditor.com/4.12.1/standard/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/12.3.1/classic/ckeditor.js"></script>
+
   <script>
     $(function () {
         CKEDITOR.replace('comentario', {

@@ -16,8 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
-from apps.materia_admin.views import *
 from django.shortcuts import render
+
+from apps.materia_admin.views import *
 from apps.usuario.views import registro_usuario
 #url de la aplicacion
 urlpatterns = [
@@ -28,7 +29,7 @@ urlpatterns = [
 url(r'^registrar/',registro_usuario.as_view () , name='registrar'),
    url(r'^editar/(?P<seccion>\d+)/$',editar, name='editar'),
     url(r'^vista/(?P<seccion>\d+)/$',seccion_view, name='vista'),
-    url(r'^', index, name='index'),
+    url(r'',index, name='index'),
     
 
  #url(r'^registro', include('apps.materia_admin.urls')),

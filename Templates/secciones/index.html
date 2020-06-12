@@ -1,6 +1,33 @@
 
-{% extends 'base/base.html'%}
+{% extends 'Base/base.html'%}
 
+{% load staticfiles %}
+
+{% block nav %}
+ <!-- NAV SECTION -->
+    <div class="navbar navbar-inverse navbar-fixed-top menu">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{%  url 'index'%}"><img class="logo" src="http://cdn.archat.la/static_unired/assets/img/slider/images/logo.jpeg" alt=""></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{% url 'index' %}">SECCIONES</a></li>
+                    <li><a href="{% url 'nuevo' %}">AGREGAR NUEVA SECCION</a></li> 
+                     <div class="col-sm-3 col-md-4">
+  <input class="form-control univ_red_buscar" id="univ_red_buscar" type="text" placeholder="  Buscar aqui" aria-label="Buscar">
+                </ul>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    {%endblock%}
 
 {% block contenido %}
 
@@ -22,7 +49,7 @@
       
     </tr>
   </thead>
-  <tbody>
+  <tbody class="buscar">
   	{%if secciones %}
   	{% for seccion in secciones %}
    
@@ -30,9 +57,9 @@
       <th scope="row"><a class="t-labe" href="">{{seccion.Seccion}}</a> </th>
       <td><a class="t-labe" href="{% url 'vista' seccion.id %}">{{seccion.Materia}}</a></td>
       <td><a  class="t-labe" href="{% url 'vista' seccion.id %}">{{seccion.Profesor}}</a> </td>
-      <td><a class="t-labe" href="">{{seccion.Recinto}}</a> </td>
-       <td><a  class="t-labe" href=""></a>{{seccion.Curso}} </td>
-      <td><a  class="t-labe" href=""></a>{{seccion.Dia1}} y  {{seccion.Dia2}} </td>
+      <td><a class="t-labe" href="{% url 'vista' seccion.id %}">{{seccion.Recinto}}</a> </td>
+       <td><a  class="t-labe" href="{% url 'vista' seccion.id %}"></a>{{seccion.Curso}} </td>
+      <td><a  class="t-labe" href="{% url 'vista' seccion.id %}"></a>{{seccion.Dia1}} y  {{seccion.Dia2}} </td>
        <td><a class="t-labe" href="{% url 'vista' seccion.id %}"></a>{{seccion.hora}}</td>
       <td><a class="t-labe" href="{% url 'vista' seccion.id %}"></a>{{seccion.Tanda}}</td>
       <td><a class="t-labe" href="{% url 'vista' seccion.id %}"></a> {{seccion.Clasificacion}}</td>
@@ -42,7 +69,7 @@
     {%endfor%}
 
 {% else %}
-<h1>No hay registros</h1>
+<h1>No hay secciones</h1>
 {% endif %}
   </tbody>
 </table> 

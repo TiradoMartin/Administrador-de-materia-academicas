@@ -1,19 +1,19 @@
 {% extends 'base/base.html'%}
 
-{% block slider %}
 
-
-{% endblock %}
 
 <div class="control-footer">
 <h1>gdfff</h1>
+
+
+
 {% block contenido %}
 
 
 <div class=”row”>
     <div class=”col-lg-3 col-md-4 col-sm-6 col-xs-12″>
       <div class="panel panel-default">
-            <center><h1>Esta Es La Seccion De {{seccion.Profesor}} </h1><center>
+            <center class="Title"><h1>Detalle De Seccion</h1><center>
           <div class="panel-heading"></div>
 
     
@@ -23,11 +23,11 @@
      
         <li class="list-group-item  utesa-presentacion"><h3>Materia</h3>{{seccion.Materia}}</li>
         <li class="list-group-item  utesa-presentacion"><h3>Seccion</h3>{{seccion.Seccion}}</li>
-        <li class="list-group-item  utesa-presentacion"><h3>Profes@</h3>{{seccion.Profesor}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Profesor/a</h3>{{seccion.Profesor}}</li>
         <li class="list-group-item  utesa-presentacion"><h3>Recinto</h3>{{seccion.Recinto}}</li>
         <li class="list-group-item  utesa-presentacion"><h3>Curso</h3>{{seccion.Curso}}</li>
         <li class="list-group-item  utesa-presentacion"><h3>Dias De Clases</h3>{{seccion.Dia1}}/{{seccion.Dia2}}</li>
-        <li class="list-group-item  utesa-presentacion"><h3>Horario</h3>{{seccion.Hora}}</li>
+        <li class="list-group-item  utesa-presentacion"><h3>Horario</h3>{{seccion.hora}}</li>
         <li class="list-group-item  utesa-presentacion"><h3>Tanda</h3>{{seccion.Tanda}}</li>
         <li class="list-group-item  utesa-presentacion"><h3>Clasificación</h3>{{seccion.Clasificacion}}</li>
         <li class="list-group-item  utesa-presentacion"><h3>Comentario</h3>{{seccion.Comentario| safe}}</li>
